@@ -10,9 +10,13 @@
 - CSS Modules
 - Live reloading
 
-# Development
+## How It Works
 
-## Chrome
+The extension starter kit uses [`webextension-polyfill`](https://github.com/mozilla/webextension-polyfill) which allows you to build extensions that automatically work on both Chrome and Firefox!
+
+## Development
+
+### Chrome
 
 1. Run `npm run develop` to start webpack-dev-server
 2. Open `chrome://extensions/` and load the extension in the `dist-dev` directory
@@ -24,12 +28,12 @@ The following parts of the extension will be automatically updated through live 
 
 Content scripts will **not** be automatically updated (unless loaded into non-SSL pages) and will require a refresh.
 
-## Firefox
+### Firefox
 
 1. Run `npm run develop-firefox` to start webpack-dev-server
 2. Load `build/manifest.json` at `about:debugging#/runtime/this-firefox`
 
-# Releasing
+## Releasing
 
 1. Bump the version number in `package.json`
 2. Create a git tag called `v${version}` using `git tag -a v<version>`
