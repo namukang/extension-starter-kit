@@ -14,15 +14,8 @@ const sassModuleRegex = /\.module\.(scss|sass)$/;
 
 function getStyleLoaders({ cssOptions = {}, preProcessor } = {}) {
   const loaders = [
-    {
-      // Turn CSS into JS modules that inject <style> tags
-      loader: 'style-loader',
-      options: {
-        // document.head is sometimes not available when content script is run
-        // https://github.com/dkthehuman/intention/issues/1
-        insert: 'html',
-      },
-    },
+    // Turn CSS into JS modules that inject <style> tags
+    'style-loader',
     {
       // Resolve paths in CSS files
       loader: 'css-loader',
