@@ -1,0 +1,12 @@
+@import '~bootstrap/scss/bootstrap';
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.Welcome {
+  max-width: 700px;
+}

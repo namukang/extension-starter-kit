@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    // Target latest version of ECMAScript
+    "target": "esnext",
+    // Generate module code using latest version of ECMAScript
+    "module": "esnext",
+    // Keep JSX as part of output to be consumed by Babel
+    "jsx": "preserve",
+    // Search under node_modules for non-relative imports.
+    "moduleResolution": "node",
+    // Base directory to resolve non-relative module names
+    "baseUrl": "src/",
+    // Import non-ES modules as default imports
+    "esModuleInterop": true,
+    // Enable strictest settings
+    "strict": true,
+    // Generate corresponding .map file
+    "sourceMap": true
+  },
+  "include": ["src", "tests"],
+  "compileOnSave": false
+}
