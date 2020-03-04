@@ -47,6 +47,7 @@ module.exports = (env, argv) => {
       popup: './src/components/Popup/index.tsx',
       options: './src/components/Options/index.tsx',
       welcome: './src/components/Welcome/index.tsx',
+      example: './src/contentScripts/example.ts',
     },
 
     // Use built-in optimizations based on mode

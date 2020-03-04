@@ -14,6 +14,12 @@
 
 The extension starter kit uses [`webextension-polyfill`](https://github.com/mozilla/webextension-polyfill) which allows you to build extensions that automatically work on both Chrome and Firefox!
 
+### Content Scripts
+
+An example content script is included in `src/contentScripts/example.ts`. Webpack outputs processed files as `[name].bundle.js`, so in `manifest.json`, the content script is loaded as `example.bundle.js`.
+
+Visit `example.com` and open the console to see the example content script in action.
+
 ## Development
 
 ### Chrome
