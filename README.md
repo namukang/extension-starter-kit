@@ -18,7 +18,7 @@ The extension starter kit uses [`webextension-polyfill`](https://github.com/mozi
 
 An example content script is included in `src/contentScripts/example.ts`. Webpack outputs processed files as `[name].bundle.js`, so in `manifest.json`, the content script is loaded as `example.bundle.js`.
 
-Visit `example.com` and open the console to see the example content script in action.
+After loading Extension Starter Kit, visit http://example.com and open the console to see the example content script in action.
 
 ## Development
 
