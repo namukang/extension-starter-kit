@@ -1,1 +1,1 @@
-console.log('Hello world from Extension Starter Kit!');
+console.log('🔥 Hello from Extension Starter Kit! 🔥');
