@@ -1,0 +1,3 @@
+# Ignore build artifacts
+dist-dev
+dist-prod
