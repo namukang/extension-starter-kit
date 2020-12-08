@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Welcome from './Welcome';
+import React from "react";
+import ReactDOM from "react-dom";
+import Welcome from "./Welcome";
 
-ReactDOM.render(<Welcome />, document.getElementById('root'));
+ReactDOM.render(<Welcome />, document.getElementById("root"));

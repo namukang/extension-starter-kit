@@ -1,7 +1,7 @@
-import { browser } from 'webextension-polyfill-ts';
-import React from 'react';
+import { browser } from "webextension-polyfill-ts";
+import React from "react";
 
-import './Popup.scss';
+import "./Popup.scss";
 
 function Popup() {
   return (
@@ -19,7 +19,7 @@ function SettingsButton() {
     <button
       type="button"
       className="btn btn-link btn-sm"
-      onClick={e => {
+      onClick={(e) => {
         e.preventDefault();
         browser.runtime.openOptionsPage();
       }}

@@ -1,4 +1,4 @@
 module.exports = {
-  parser: '@typescript-eslint/parser',
-  extends: ['react-app'],
+  parser: "@typescript-eslint/parser",
+  extends: ["react-app"],
 };
